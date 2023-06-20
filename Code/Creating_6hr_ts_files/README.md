@@ -1,1 +1,2 @@
-.
+# Notes
+All the meteorological variables of the MPI-ESM1-2-HAM model were available at a 6-hourly resolution except for surface temperature (ts) which was obtained at a daily resolution. This was the highest available resolution. Therefore, to create consistency with the other variables, surface temperature was modified to a 6-hourly resolution. The modified file was such that for each day, the same surface temperature reading was provided 4 times, that is, after every 6 hours. A similar modification was demonstrated by Bruyère et al. (2015), and it generated scientifically realistic downscaled results. The python scripts have been provided in this folder.
